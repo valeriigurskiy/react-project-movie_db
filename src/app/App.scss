@@ -1,0 +1,10 @@
+$breakpoint-tablet: 768px;
+
+.movie-container {
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: black;
+  @media (min-width: $breakpoint-tablet) {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,46 @@
+.may-movies-list-card {
+  max-width: 320px;
+  background: black;
+  padding: 12px;
+  margin-left: 6.5px;
+
+  &-avatar {
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  &-black {
+    background: #000000;
+  }
+
+  img {
+    width: 200px;
+    height: 300px;
+    border-radius: 25px;
+    transition: .6s;
+  }
+
+  img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    opacity: 0.3;
+  }
+
+  &-modal {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.fontForRating{
+  font-size: 20px;
+}

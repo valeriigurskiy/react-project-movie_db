@@ -1,0 +1,32 @@
+.main-header {
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #121212;
+
+  &-logo {
+    height: 50px;
+    width: 220px;
+  }
+
+  .active {
+    text-decoration: underline;
+    color: darkred;
+  }
+
+  .btn {
+    &.dark {
+      background-color: cadetblue;
+    }
+  }
+
+  &-links-wrapper {
+    display: flex;
+
+    &-link {
+      margin: 0 10px;
+    }
+  }
+}
